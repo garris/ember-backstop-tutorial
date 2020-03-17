@@ -3961,10 +3961,13 @@ ember-assign-polyfill@~2.4.0:
     ember-cli-babel "^6.6.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-backstop@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/ember-backstop/-/ember-backstop-1.2.1.tgz#69d62abe43feb7ec2d9b27f01876c35c035863f7"
+ember-backstop@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/ember-backstop/-/ember-backstop-1.4.0.tgz#9f09371a0fffc23b472c59cbd96b5193ff12ad41"
+  integrity sha512-9caaJy3J8Tso1/ogX3nfan6C/ZHMbBVqJdDLseqy/eBvv9IjAwgvULN1y4GJyQh0g5yGpIuNLANiZOglunQBdg==
   dependencies:
+    backstopjs "^4.3.2"
+    debug "^4.1.1"
     ember-cli-babel "^7.7.3"
 
 ember-cli-app-version@^3.2.0:
